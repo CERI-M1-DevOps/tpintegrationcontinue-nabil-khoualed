@@ -156,7 +156,7 @@ public class ListeSimpleTest {
         listeATester.ajout(3);
         listeATester.ajout(2);
         listeATester.supprimeTous(3);
-        assertEquals(listeATester.toString(), "ListeSimple(Noeud(1), Noeud(2))");
+        assertEquals("ListeSimple(Noeud(1), Noeud(2))", listeATester.toString());
         assertEquals(2, listeATester.getSize());
     }
 
